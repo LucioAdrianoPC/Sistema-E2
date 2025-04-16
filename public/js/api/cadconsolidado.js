@@ -153,6 +153,7 @@ function adicionar(){
     }   
        
     $('#carrega').css('display', 'block');
+    $('#addConsolidado').attr('disabled', true);
     let idCert = $('#certificado').val();
     $.ajax({
         type: 'GET',
@@ -212,6 +213,7 @@ function lista(){
         $('#tb-ca').html(pop_consolidado);
     });
     $('#carrega').css('display', 'none');
+    $('#addConsolidado').attr('disabled', false);
 }
 
 function populaCadastro(){

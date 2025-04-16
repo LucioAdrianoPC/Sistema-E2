@@ -115,8 +115,9 @@
 					<thead style="background-color: #555353; color: #E5E5E5">
 					  <tr>
 						<th scope="col" style="width: 100px; vertical-align: center">Nº</th>
+						<th scope="col" style="width: 100px; vertical-align: center">Consolidado</th>
 						<th scope="col" style="width: 100px; vertical-align: center">Ciclo</th>
-						<th scope="col" style="width: 400px; text-align: center">Marca</th>
+						<th scope="col" style="width: 300px; text-align: center">Marca</th>
 						<th scope="col" style="width: 75px; text-align: center">Imprimir</th>
 						<th scope="col" style="width: 75px; text-align: center">Editar</th>
 						<th scope="col" style="width: 75px; text-align: center">Excluir</th>

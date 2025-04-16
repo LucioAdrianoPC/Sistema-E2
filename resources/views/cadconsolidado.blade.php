@@ -160,7 +160,7 @@
 								<input type="text" class="form-control" id="qtd" maxlength="150" required>
 							</div>
 							<div class="form-group col-md-2" style="padding-top: 3.5%">
-								<button type="button" class="btn btn-warning" onclick="adicionar()">Adicionar</button>
+								<button type="button" id="addConsolidado" class="btn btn-warning" onclick="adicionar()">Adicionar</button>
 							</div>
 						</div>
 						<div class="row">
